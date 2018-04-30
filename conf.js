@@ -25,5 +25,6 @@ exports.config = {
         }
     },
 
-    specs: ['./features/home_page.feature']
+    specs: ['./features/home_page.feature',
+        './features/search_results_page.feature']
 };

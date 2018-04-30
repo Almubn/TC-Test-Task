@@ -7,7 +7,7 @@ class HomePage {
     }
 
     getHomePageTitle() {
-        return browser.getTitle();
+        return getTitle();
     }
 }
 
