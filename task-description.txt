@@ -1,0 +1,8 @@
+1. Clone project
+2. Install dependencies and run test homePage.feature
+3. Test should fail:) Investigate why and make it green:)
+4. Create new test (search_results_page.feature) with next steps
+- open home page
+- assert that home page is displayed
+- click 'Search' button
+- wait for page to load and assert that search results page is opened (use empty file searchResultsPage.js)
