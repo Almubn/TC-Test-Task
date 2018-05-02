@@ -4,10 +4,11 @@ class HomePage {
         this.homePageUrl = 'https://www.thomascook.com';
         this.searchBar = element(by.css('div.SearchbarForm-fieldsContainer'));
         this.searchButton = element(by.id('SearchbarForm-submitBtn'));
+        this.popup = element(by.css('span.e108742-close.e108742-close-on-click'));
     }
 
     getHomePageTitle() {
-        return getTitle();
+        return browser.getTitle();
     }
 }
 
